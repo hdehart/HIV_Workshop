@@ -59,6 +59,9 @@ We can always expand on the third envelope and ask which lab did the anthrax com
 
 An individual is walking through airport customs security and pulled aside for a suspicious item in their bag. As a U.S. Customs and Border Agriculture Specialist, you are called over to help with the inspection. A small, heavy engraved object is pulled out from within several pairs of socks. You are 
 
+https://www.fws.gov/lab/ivory_natural.php
+
+
 ## 3b. Rhino sanctuary poaching? Tree building with CIPRES or something to see if Rhino horn came from a zoo animal that was killed, a wildlife sanctuary, etc. 
 
 You are working at US Customs as an agent in charge of monitoring invasive and endangered species that cross the border. You become suspicious when you find a crate packed full of oranges 
@@ -67,3 +70,5 @@ You are working at US Customs as an agent in charge of monitoring invasive and e
 
 
 for other workshops:http://www.caseitproject.org/wp-content/uploads/2012/07/using-case-it-HIV.pdf
+
+
