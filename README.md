@@ -1,6 +1,15 @@
 # Bioinformatic_workshops
 
-## 1. fruit fly egg identification on imported fruit (Blast)
+
+## Tools
+#### These will be the tools we will be using:
+
+* [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch)
+* [PHYLO "Interactive alignment game"](http://phylo.cs.mcgill.ca "Interactive alignment game")
+* [Evolution tree game](http://tidal.northwestern.edu/blog/bat/#level1)
+* Phylotastic if we can get the link to work
+
+## Imported Goods Scenario
 
 You're a biologist with the FDA. After recieving a shipment of mangos from baltimore shipment yard, you see a few of the mangos have small dots that could be insect eggs on them. Before allowing the mangos to go into supermarkets, you want to be sure that those black dots aren't harmful, such as introducing an invasive species or toxic organism. You take the mangos with the small black dots on them back to the lab, extract DNA from the black dots and sequence the CO1 gene. Now it is up to decide if you should allow the mangos into the country.
 
@@ -17,7 +26,7 @@ There are 50,000 mangos sitting in a warehouse, depending on your results you wi
 
 
 
-## 2. Illegal import (castor beans)/Cannabis/something (Blast + scientific name + wikipedia?)
+## Bio-terrorism Scenario 
 
 Three letters are delivered to the Pentagon, White House, and Capital building. An assistant at each government building opens thier respective envelope to find a letter and white powdery substance inside it. As an FBI investigative agent, you are called in to investigate these suspecious letters and unknown white substance. Each building that received a letter is quarantined until the genetic results are obtained. Upon receiving the results, you need to decide if a building can be released or if the building needs to remain under quarantine and the people inside need to receive medical attention. 
 
