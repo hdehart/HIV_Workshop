@@ -1,4 +1,5 @@
-# Bioinformatic_workshops
+# Bioinformatic Workshop 
+## Wildlife and Safety Bioinformatic Workshop
 
 
 ## Tools
@@ -8,6 +9,8 @@
 * [PHYLO "Interactive alignment game"](http://phylo.cs.mcgill.ca "Interactive alignment game")
 * [Evolution tree game](http://tidal.northwestern.edu/blog/bat/#level1)
 * Phylotastic if we can get the link to work
+
+
 
 ## Imported Goods Scenario
 
@@ -28,7 +31,7 @@ There are 50,000 mangos sitting in a warehouse, depending on your results you wi
 
 ## Bio-terrorism Scenario 
 
-Three letters are delivered to the Pentagon, White House, and Capital building. An assistant at each government building opens thier respective envelope to find a letter and white powdery substance inside it. As an FBI investigative agent, you are called in to investigate these suspecious letters and unknown white substance. Each building that received a letter is quarantined until the genetic results are obtained. Upon receiving the results, you need to decide if a building can be released or if the building needs to remain under quarantine and the people inside need to receive medical attention. 
+Three letters are delivered to the Pentagon, White House, and Capital building. An assistant at each government building opens thier respective envelope to find a letter and white powdery substance inside it. As an FBI investigative agent, you are called in to investigate these suspecious letters and unknown white substance. Each building that received a letter is quarantined until the genetic results are obtained. Each unknown white substance was amplified with primers useful for identifying most plants, animals, and bacteria, and [sequences](https://github.com/gwcbi/Bioinformatic_workshops/blob/master/sample_1.fasta) were obtained. Upon receiving the results, you need to decide if a building can be released or if the building needs to remain under quarantine and the people inside need to receive medical attention.
 
 1) Student downloads fasta file
 2) Student blasts all fasta sequences, finds accession number based on information gained from above
@@ -36,7 +39,7 @@ Three letters are delivered to the Pentagon, White House, and Capital building. 
 4) Decide which building needs to stay under quaratine
 
 
-Results: Bacillus mycoides, Bacillus weihenstephanensis, Bacillus anthracis 16s partial sequence
+Results: Bacillus anthracis 16s partial sequence
 
 
 Complicating the scenerio:
