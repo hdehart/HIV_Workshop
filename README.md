@@ -8,10 +8,9 @@
 * [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch)
 * [PHYLO "Interactive alignment game"](http://phylo.cs.mcgill.ca "Interactive alignment game")
 * [Evolution tree game](http://tidal.northwestern.edu/blog/bat/#level1)
-* [Phylotastic!](http://phylo.cs.nmsu.edu:3000)
 * [CIPRES](http://www.phylo.org)
 * [Interactive Tree of Life](https://itol.embl.de)
-
+<!--* [Phylotastic!](http://phylo.cs.nmsu.edu:3000)-->
 <br><br>
 
 ## Imported Goods Scenario
@@ -26,8 +25,6 @@ You're a biologist with the FDA. A shipment of mangos from Spain was received in
 5. Determine the results.
 
 <!--Results: fruit fly-->
-
-
 <br><br>
 
 ## Bio-terrorism Scenario 
@@ -40,16 +37,12 @@ Three letters are delivered to the Pentagon, White House, and Capital building. 
 2. Identify species.
 3. Determine if the species is harmful or harmless.
 
+<br>
 
 *Additional information about the anthrax case*
 * https://www.fbi.gov/history/famous-cases/amerithrax-or-anthrax-investigation
 
-  
- <br>
- <br>
 <!--Results: wheat flour, rice flour, Bacillus anthracis 16s partial sequence-->
-
-
 <br><br>
 
 ## Poaching Scenario
@@ -59,10 +52,12 @@ An individual is walking through airport customs security and pulled aside for a
 
 ### Goals:
 1. Perform a BLAST search and identify the species.
-  
+
+<br>
+
 ### Poaching Analysis
 
-You now know that the piece of ivory belongs to a white rhinoceros *Ceratotherium simum*. Because white rhinos are endangered, your suspicions rise. Is this a case of poaching? Was the rhino killed? Is the rhino from a zoo or a wildlife sanctuary? The two most common types of rhinos that are poached are white rhinoceroses and black rhinoceroses. You compile a list of sequences from known white and black rhinoceroses. You also include two sequences from horses as outgroups, because horses are most closely related to rhinos. Using your list of sequences, you will perform an alignment search. All the sequences you are using are assumed to have an evolutionary relationship. This means that the sequences (rhinos and horses) descended from a common ancestor. Performing a multiple alignment search allows sequence homology to be inferred. Followed by phylogenetic analysis, the evolutionary origins of the sequences can be assessed.
+You now know that the piece of ivory belongs to a white rhinoceros *Ceratotherium simum*. Because white rhinos are endangered, your suspicions rise. Is this a case of poaching? Was the rhino killed? Is the rhino from a zoo or a wildlife sanctuary? The two most common types of rhinos that are poached are white rhinoceroses and black rhinoceroses. You compile a list of [sequences](https://github.com/gwcbi/Bioinformatic_workshops/blob/master/part_3_sequences.fasta) from known white and black rhinoceroses. You also include two sequences from horses as outgroups, because horses are most closely related to rhinos. Using your list of sequences, you will perform a [mulitple alignment search](https://github.com/gwcbi/Bioinformatic_workshops/blob/master/part_3_alignment.phy). All the sequences you are using are assumed to have an evolutionary relationship. This means that the sequences (rhinos and horses) descended from a common ancestor. Performing a multiple alignment search allows sequence homology to be inferred. Followed by phylogenetic analysis, the evolutionary origins of the sequences can be assessed.
 
 ### Goals:
 1. Make an account on CIPRES
@@ -72,10 +67,11 @@ You now know that the piece of ivory belongs to a white rhinoceros *Ceratotheriu
 5. Upload the tree into iTOL.
 6. View relationships of rhinos and determine where your unknown rhino sample belongs.
 
+<!--Results: sample belongs to the French Zoo population-->
+
 <br>
 
 *Additional information about rhino poaching*
 * http://www.npr.org/2017/03/11/519807756/poachers-kill-white-rhino-in-french-zoo-saw-off-horn
 * http://www.bbc.com/news/world-asia-39268084
 
-<br>
