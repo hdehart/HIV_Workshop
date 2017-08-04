@@ -1,3 +1,13 @@
 HIV: for other workshops:http://www.caseitproject.org/wp-content/uploads/2012/07/using-case-it-HIV.pdf
 Sushi Identification.. could be similar to lab 1 in the Bioinformatics class. - This one could be a little more advanced if need be, or could range like the wildlife one.
 
+
+Complicating the anthrax case in the wildlife workshop:
+
+http://www.pnas.org/content/108/12/5027.full.pdf
+
+seeing if the strain contains both the POX1 and POX2 genes (meaning full virulence)
+
+https://en.wikipedia.org/wiki/Bacillus_anthracis
+
+We can always expand on the third envelope and ask which lab did the anthrax come from?
