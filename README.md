@@ -57,15 +57,14 @@ An individual is walking through airport customs security and pulled aside for a
 
 ### Poaching Analysis
 
-You now know that the piece of ivory belongs to a white rhinoceros *Ceratotherium simum*. Because white rhinos are endangered, your suspicions rise. Is this a case of poaching? Was the rhino killed? Is the rhino from a zoo or a wildlife sanctuary? The two most common types of rhinos that are poached are white rhinoceroses and black rhinoceroses. You compile a list of [sequences](https://github.com/gwcbi/Bioinformatic_workshops/blob/master/part_3_sequences.fasta) from known white and black rhinoceroses. You also include two sequences from horses as outgroups, because horses are most closely related to rhinos. Using your list of sequences, you will perform a [mulitple alignment search](https://github.com/gwcbi/Bioinformatic_workshops/blob/master/part_3_alignment.phy). All the sequences you are using are assumed to have an evolutionary relationship. This means that the sequences (rhinos and horses) descended from a common ancestor. Performing a multiple alignment search allows sequence homology to be inferred. Followed by phylogenetic analysis, the evolutionary origins of the sequences can be assessed.
+You now know that the piece of ivory belongs to a white rhinoceros *Ceratotherium simum*. Because white rhinos are endangered, your suspicions rise. Is this a case of poaching? Was the rhino killed? Is the rhino from a zoo or a wildlife sanctuary? The two most common types of rhinos that are poached are white rhinoceroses and black rhinoceroses. You compile a list of [sequences](https://github.com/gwcbi/Bioinformatic_workshops/blob/master/part_3_sequences.fasta) from known white and black rhinoceroses. You also include two sequences from horses as outgroups, because horses are most closely related to rhinos. Using your list of sequences, you will perform a [mulitple alignment search](https://github.com/gwcbi/Bioinformatic_workshops/blob/master/part_3_alignment.phy). All the sequences you are using are assumed to have an evolutionary relationship. This means that the sequences (rhinos and horses) descended from a common ancestor. Performing a multiple alignment search allows sequence homology to be inferred. Followed by [phylogenetic analysis](https://github.com/gwcbi/Bioinformatic_workshops/blob/master/part_3_tree.tre), the evolutionary origins of the sequences can be assessed.
 
 ### Goals:
 1. Make an account on CIPRES
 2. Perform an alignment with MUSCLE on CIPRES.
-3. Transform the alignment into Phylip format through JModelTest.
-4. Preform a RAXML phylogenetic tree search with CIPRES.
-5. Upload the tree into iTOL.
-6. View relationships of rhinos and determine where your unknown rhino sample belongs.
+3. Preform a RAXML phylogenetic tree search with CIPRES.
+4. Upload the tree into iTOL.
+5. View relationships of rhinos and determine where your unknown rhino sample belongs.
 
 <!--Results: sample belongs to the French Zoo population-->
 
