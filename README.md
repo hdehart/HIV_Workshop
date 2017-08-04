@@ -8,67 +8,74 @@
 * [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch)
 * [PHYLO "Interactive alignment game"](http://phylo.cs.mcgill.ca "Interactive alignment game")
 * [Evolution tree game](http://tidal.northwestern.edu/blog/bat/#level1)
-* Phylotastic if we can get the link to work
+* [Phylotastic!](http://phylo.cs.nmsu.edu:3000)
 * [CIPRES](http://www.phylo.org)
+* [Interactive Tree of Life](https://itol.embl.de)
 
-
+<br><br>
 
 ## Imported Goods Scenario
 
 You're a biologist with the FDA. A shipment of mangos from Spain was received in the Baltimore shipment yard. Upon inspection of one of the crates, you see a few mangos have small dots on them that could be insect eggs. Before allowing the mangos to pass through the border and go into supermarkets, you want to be sure that those black dots aren't harmful. You don't want to introduce an invasive species or toxic organism into the US that could affect the mangos grown in Florida or California. You take the mangos with the small black dots on them back to the lab, extract DNA from the black dots, and [sequence](https://github.com/gwcbi/Bioinformatic_workshops/blob/master/sample_1.fasta) the CO1 gene. There are now 50,000 mangos sitting in a warehouse. Depending on your results, it is up to you to decide if the mangos will be allowed into the country.
 
 #### Goals: 
-1. Understand the format of a fasta file
+1. Understand the format of a fasta file.
 2. Uploading to BLAST and performing a search.
-3. Understanding the BLAST results
-4. Reading an NCBI accession
-5. Determine the results
+3. Understanding the BLAST results.
+4. Reading an NCBI accession.
+5. Determine the results.
+
+<!--Results: fruit fly-->
 
 
-
-
+<br><br>
 
 ## Bio-terrorism Scenario 
 
-Three letters are delivered to the Pentagon, White House, and Capital building. An assistant at each government building opens thier respective envelope to find a letter and white powdery substance inside it. As an FBI investigative agent, you are called in to investigate these suspecious letters and unknown white substance. Each building that received a letter is quarantined until the genetic results are obtained. Each unknown white substance was amplified with primers useful for identifying most plants, animals, and bacteria, and [sequences](https://github.com/gwcbi/Bioinformatic_workshops) were obtained. Upon receiving the results, you need to decide if a building can be released or if the building needs to remain under quarantine and the people inside need to receive medical attention.
+Three letters are delivered to the Pentagon, White House, and Capital building. An assistant at each government building opens thier respective envelope to find a letter and white powdery substance inside it. As an FBI investigative agent, you are called in to investigate these suspecious letters and unknown white substance. Each building that received a letter is quarantined until the genetic results are obtained. Each unknown white substance was amplified with primers useful for identifying most plants, animals, and bacteria, and sequences [1](https://github.com/gwcbi/Bioinformatic_workshops/blob/master/sample_2a.fasta), [2](https://github.com/gwcbi/Bioinformatic_workshops/blob/master/sample_2b.fasta), and [3](https://github.com/gwcbi/Bioinformatic_workshops/blob/master/sample_2c.fasta) were obtained. Upon receiving the results, you need to decide if a building can be released or if the building needs to remain under quarantine, and the people inside need to receive medical attention.
 
-1) Student downloads fasta file
-2) Student blasts all fasta sequences, finds accession number based on information gained from above
-3) Google scientific names
-4) Decide which building needs to stay under quaratine
 
 #### Goals: 
-1. Perform multiple BLAST searches
-2. 
-
-Results: wheat flour, rice flour, Bacillus anthracis 16s partial sequence
-
-
-Complicating the scenerio:
-
-http://www.pnas.org/content/108/12/5027.full.pdf
-
-seeing if the strain contains both the POX1 and POX2 genes (meaning full virulence)
-
-https://en.wikipedia.org/wiki/Bacillus_anthracis
-
-We can always expand on the third envelope and ask which lab did the anthrax come from?
+1. Perform multiple BLAST searches.
+2. Identify species.
+3. Determine if the species is harmful or harmless.
 
 
-## 3a. Smuggling Identification
+*Additional information about the anthrax case*
+* https://www.fbi.gov/history/famous-cases/amerithrax-or-anthrax-investigation
 
-An individual is walking through airport customs security and pulled aside for a suspicious item in their bag. As a U.S. Customs and Border Agriculture Specialist, you are called over to help with the inspection. A small, heavy engraved object is pulled out from within several pairs of socks. You are 
-
-https://www.fws.gov/lab/ivory_natural.php
-
-
-## 3b. Rhino sanctuary poaching? Tree building with CIPRES or something to see if Rhino horn came from a zoo animal that was killed, a wildlife sanctuary, etc. 
-
-You are working at US Customs as an agent in charge of monitoring invasive and endangered species that cross the border. You become suspicious when you find a crate packed full of oranges 
+  
+ <br>
+ <br>
+<!--Results: wheat flour, rice flour, Bacillus anthracis 16s partial sequence-->
 
 
+<br><br>
 
+## Poaching Scenario
+### Smuggling Identification
 
-for other workshops:http://www.caseitproject.org/wp-content/uploads/2012/07/using-case-it-HIV.pdf
+An individual is walking through airport customs security and pulled aside for a suspicious item in their bag. As a U.S. Customs and Border Agriculture Specialist, you are called over to help with the inspection. A small, heavy engraved object is pulled out from within several pairs of socks. From your years of experience you immediately suspect this as ivory. However, you are unsure if this is ivory from an elephant or walrus tusk, a rhino horn, or a different animal. You send off the sample to be confirmed that it is ivory and for genetic testing to find out the species it belongs to. You receive documentation that it is a positive result for ivory and a [CO1 sequence](https://github.com/gwcbi/Bioinformatic_workshops/blob/master/sample_3.fasta). Your job is to idenity which species this piece of ivory came form. 
 
+### Goals:
+1. Perform a BLAST search and identify the species.
+  
+### Poaching Analysis
 
+You now know that the piece of ivory belongs to a white rhinoceros *Ceratotherium simum*. Because white rhinos are endangered, your suspicions rise. Is this a case of poaching? Was the rhino killed? Is the rhino from a zoo or a wildlife sanctuary? The two most common types of rhinos that are poached are white rhinoceroses and black rhinoceroses. You compile a list of sequences from known white and black rhinoceroses. You also include two sequences from horses as outgroups, because horses are most closely related to rhinos. Using your list of sequences, you will perform an alignment search. All the sequences you are using are assumed to have an evolutionary relationship. This means that the sequences (rhinos and horses) descended from a common ancestor. Performing a multiple alignment search allows sequence homology to be inferred. Followed by phylogenetic analysis, the evolutionary origins of the sequences can be assessed.
+
+### Goals:
+1. Make an account on CIPRES
+2. Perform an alignment with MUSCLE on CIPRES.
+3. Transform the alignment into Phylip format through JModelTest.
+4. Preform a RAXML phylogenetic tree search with CIPRES.
+5. Upload the tree into iTOL.
+6. View relationships of rhinos and determine where your unknown rhino sample belongs.
+
+<br>
+
+*Additional information about rhino poaching*
+* http://www.npr.org/2017/03/11/519807756/poachers-kill-white-rhino-in-french-zoo-saw-off-horn
+* http://www.bbc.com/news/world-asia-39268084
+
+<br>
