@@ -7,12 +7,20 @@ You are a researcher in a forensics laboratory. You are contacted by a lawyer re
 3.	Build a phylogenetic tree
 4.	Determine if defendant is guilty or not guilty 
 ###Part 1 - Looking at Sequence Data
-1.	View the [sequence data](https://github.com/hdehart/HIV_Workshop/blob/master/HIV_subset.fas)
+1.	View the [sequence data]( in a text editor:
 
-2.	Go to [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) and select the nucleotide BLAST option
-3.	Copy the first nucleotide option (>AY156858.1_V01) and paste it underneath the Enter Query Sequence box
-4.	Keep all default options and hit BLAST
-5.	Explore the results of the BLAST search. Click on the accession number of the top hit. What do you think this sequence is? Who did it come from? 
+>AY156814.1_P07 | >Accession number_Sample ID
+--------------- | ---------------------------
 
-###Part 2 - Creating a Multiple Sequence Alignment (MSA)
-You have multiple samples from the victim, other patients under the doctor’s care, and other HIV positive individuals. How can you use these sequences to trace the source of the victim’s infection? You need to compare the similarities and differences between the sequences, but how do we do that? 
+AATTAGGCCAACAGTATCAACTCAATTACTGTTAAATGGCAGTCTAGCAGAAAAAGAGGTAGTAATTAGA | P = Patient’s under the doctor’s care V = Victim LA = Other HIV positive individuals from the surrounding Louisiana area
+TCTGAAAATTTCACGAACAATGCTAAAACCATAATAGTACAGCTGAAAACACCTGTAGAAATTAATTGTA
+CAAGACCCAACAACAATACAAGAAAAAGTATATCTATAGGACCAGGGAGAGCACTTTATACAACAGGAGA
+CATAATAGGAGATATAAGAAAAGCATATTGTAACATTAGTAAAGCAAAATGGAATGACACTCTAAACCAG
+GTAGTTAAAAAATTAGGACAACAATTTAATAAAACAACAATAGTCTTTAAGCAATCCTCAGGAGGGGACC
+CAGAAATTGCAATGCACAGTTTTAACTGTGGAGGGGAATTTTTCTACTGTAATACAACACAACTGTTTAA
+TAGTACCTGGAATATTACTGGAGGAACAAATATTACTGAAGAAACAAATAACATGGAAGGAAATAATACA
+ACAATCATACTCCCATGCAGAATAAAACAAATGATAAACATGTGGCAGGAGGTAGGAAAAGCAATGTATG
+CCCCGCCCATCCAAGGAATAATTAGCTGCTCATCAAATATTACAGGGCTACTACTAACAAGAGATGGCGG
+TAATGGTAATGACACCAGAGATAATGAGACCTTCAGACCTTGAGGAGGAGATATGAAGGACAATTGGAGA
+AGTGAATTATATAAATATAAAGTAGTAAAAATTGAACCATTAGGAGTAGCACCCACCAAGGCAGAGAGAA
+GGGCGGTGCAAAGAGAAAAAAGA
