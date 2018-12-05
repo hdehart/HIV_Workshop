@@ -9,10 +9,11 @@ You are a researcher in a forensics laboratory. You are contacted by a lawyer re
 ### Part 1 - Looking at Sequence Data
 1.	View the [sequence data](https://github.com/hdehart/HIV_Workshop/blob/master/HIV_subset.fas)
 
-2.	Go to [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) and select the nucleotide BLAST option
-3.	Copy the first nucleotide option (>AY156858.1_V01) and paste it underneath the Enter Query Sequence box
-4.	Keep all default options and hit BLAST
+2.	Go to [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) and select the nucleotide BLAST option.
+3.	Copy the first nucleotide option (>AY156858.1_V01) and paste it underneath the Enter Query Sequence box.
+4.	Keep all default options and hit BLAST.
 5.	Explore the results of the BLAST search. Click on the accession number of the top hit. What do you think this sequence is? Who did it come from? 
 
 ### Part 2 - Creating a Multiple Sequence Alignment (MSA)
 You have multiple samples from the victim, other patients under the doctor’s care, and other HIV positive individuals. How can you use these sequences to trace the source of the victim’s infection? You need to compare the similarities and differences between the sequences, but how do we do that? 
+![alt text] 
