@@ -50,7 +50,7 @@ This is why we create multiple sequence alignments! Lining up the sequences help
 
 ### Part 3 - Creating Phylogenetic Relationships and Trees
 
-Now that the sequences are aligned and we can see all the similarities and differences, we need to determine which ones are more and less alike. How can we do that?
+Now that the sequences are [aligned](https://github.com/hdehart/HIV_Workshop/blob/master/HIV_data_aligned.fas) and we can see all the similarities and differences, we need to determine which ones are more and less alike. How can we do that?
 
 ![alt text](https://github.com/hdehart/HIV_Workshop/blob/master/fam_tree.png)
 
