@@ -7,10 +7,9 @@ You are a researcher in a forensics laboratory. You are contacted by a lawyer re
 3.	Build a phylogenetic tree
 4.	Determine if defendant is guilty or not guilty 
 ### Part 1 - Looking at Sequence Data
-1.	Take a look at the [sequence data](https://github.com/hdehart/HIV_Workshop/blob/master/HIV_subset.fas).
-
+1.	Take a look at the [sequence data](https://github.com/hdehart/HIV_Workshop/blob/master/HIV_subset.fas). Copy the first nucleotide option (>AY156858.1_V01). 
 2.	Go to [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) and select the nucleotide BLAST option.
-3.	Copy the first nucleotide option (>AY156858.1_V01) and paste it underneath the Enter Query Sequence box.
+3.	Paste the first sequence underneath the Enter Query Sequence box.
 4.	Keep all default options and hit **BLAST**.
 5.	Explore the results of the BLAST search. Click on the accession number of the top hit. What do you think this sequence is? Who did it come from? 
 
