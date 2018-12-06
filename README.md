@@ -20,7 +20,7 @@ An accession number is a unique ID assigned to sequences uploaded to the [GenBan
 * **LA** - Other HIV positive individuals from the Louisiana area
 
 2.	Go to [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) and select the nucleotide BLAST option.
-3.	Paste the first sequence underneath the Enter Query Sequence box.
+3.	Paste the first sequence underneath the **Enter Query Sequence box**.
 4.	Keep all default options and hit **BLAST**.
 5.	Explore the results of the BLAST search. Click on the accession number of the top hit. What do you think this sequence is? Who did it come from? 
 
