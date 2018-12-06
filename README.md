@@ -7,7 +7,18 @@ You are a researcher in a forensics laboratory. You are contacted by a lawyer re
 3.	Build a phylogenetic tree
 4.	Determine if defendant is guilty or not guilty 
 ### Part 1 - Looking at Sequence Data
-1.	Take a look at the [sequence data](https://github.com/hdehart/HIV_Workshop/blob/master/HIV_subset.fas). Copy the first nucleotide option (>AY156858.1_V01). 
+1.	Take a look at the [sequence data](https://github.com/hdehart/HIV_Workshop/blob/master/HIV_subset.fas). Copy the first nucleotide sequence. Each sequence starts with a title to separate it from others in the same file:
+
+\>**AY156858.1**\_*V01*
+
+\>**Accession number**\_*Sample name*
+
+An accession number is a unique ID assigned to sequences uploaded to the [GenBank database](https://www.ncbi.nlm.nih.gov/genbank/). The sample names include information about who the sample came from:
+
+* **V** - Victim
+* **P** - Other patient's under the doctor's care
+* **LA** - Other HIV positive individuals from the Louisiana area
+
 2.	Go to [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) and select the nucleotide BLAST option.
 3.	Paste the first sequence underneath the Enter Query Sequence box.
 4.	Keep all default options and hit **BLAST**.
