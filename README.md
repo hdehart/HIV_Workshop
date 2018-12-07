@@ -30,6 +30,8 @@ You have multiple samples from the victim, other patients under the doctor’s c
 
 ![alt text](https://github.com/hdehart/HIV_Workshop/blob/master/grapefruit.png) ![alt text](https://github.com/hdehart/HIV_Workshop/blob/master/orange.png)
 
+[source](https://commons.wikimedia.org/wiki/User:Evan-Amos/Food)
+
 1.	Look at these 2D pictures of a grapefruit and an orange. 
 2.	Are there differences you can see? 
 3.	Are there differences you can’t see in this format? 
