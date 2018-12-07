@@ -30,7 +30,7 @@ You have multiple samples from the victim, other patients under the doctor’s c
 
 ![alt text](https://github.com/hdehart/HIV_Workshop/blob/master/grapefruit.png) ![alt text](https://github.com/hdehart/HIV_Workshop/blob/master/orange.png)
 
-[source](https://commons.wikimedia.org/wiki/User:Evan-Amos/Food)
+*[source](https://commons.wikimedia.org/wiki/User:Evan-Amos/Food)*
 
 1.	Look at these 2D pictures of a grapefruit and an orange. 
 2.	Are there differences you can see? 
@@ -39,7 +39,7 @@ You have multiple samples from the victim, other patients under the doctor’s c
 
 This is why we create multiple sequence alignments! Lining up the sequences helps us determine the similarities and differences among sequences. We do this quickly by using alignment software.
 
-1.	Go to the [MAFFT alignment online software](https://mafft.cbrc.jp/alignment/server/). Copy and paste all the sequences into the input box.
+1.	Go to the [MAFFT alignment online software](https://mafft.cbrc.jp/alignment/server/). Copy and paste all the sequences into the **input box**.
 2.	Keep all the default settings for now, scroll down and hit **SUBMIT**.
 3.	Look at the different ways the sequences were aligned. At the bottom of each alignment, there are symbols to indicate shared and different amino acid bases.
 
