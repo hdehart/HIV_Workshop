@@ -47,11 +47,11 @@ This is why we create multiple sequence alignments! Lining up the sequences help
 
 Now that the sequences are [aligned](https://github.com/hdehart/HIV_Workshop/blob/master/data_aligned.fas) and we can see all the similarities and differences, we need to determine which ones are more and less alike. How can we do that? Let's think back to the fruits...
 
+![alt text](https://github.com/hdehart/HIV_Workshop/blob/master/fruit_tree.PNG)
 
+Think about some charactersitics that are shared among different types of fruits. All fruits are more similar to each other than they are to a avegetable like an onion. Within fruits however, some are more closely related because of shared characteristics. For example, the orange and grapefruit are more similar to each other than either is to an apple, because they are citrus fruits. Peaches and cherries are more similar to each other than either is to the apple, because they only have a single pit. 
 
-Think about some charactersitics that are shared among different types of fruits. All fruits are more siilar to each other than they are to a avegetable like an onion. Within fruits however, some are more closely related because of shared characteristics. For example, the orange and grapefruit are more similar to each other than either is to an apple, because they are citrus fruits. Peaches and cherries are more similar to each other than either is to the apple, because they only have a single pit. 
-
-Let’s do the same with the HIV sequences. 
+Let’s think about our HIV sequences the same way by creating a phylogenetic tree. 
 
 1.	Create a hypothesis. If some sequences are more similar to each other, what do you think that means?
 2.	Go back to the alignment you created and create a phylogenetic tree out of the alignment you created. What do you think each of the parameters adjusts? Do you think adjusting these parameters will greatly affect your results?
