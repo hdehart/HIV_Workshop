@@ -49,7 +49,7 @@ Now that the sequences are [aligned](https://github.com/hdehart/HIV_Workshop/blo
 
 ![alt text](https://github.com/hdehart/HIV_Workshop/blob/master/fruit_tree.PNG)
 
-Think about some charactersitics that are shared among different types of fruits. All fruits are more similar to each other than they are to a avegetable like an onion. Within fruits however, some are more closely related because of shared characteristics. For example, the orange and grapefruit are more similar to each other than either is to an apple, because they are citrus fruits. Peaches and cherries are more similar to each other than either is to the apple, because they only have a single pit. 
+Think about some charactersitics that are shared among different types of fruits. All fruits are more similar to each other than they are to a vegetable, like an onion. Within fruits however, some are more closely related because of shared characteristics. For example, the orange and grapefruit are more similar to each other than either is to an apple, because they are citrus fruits. Peaches and cherries are more similar to each other than either is to the apple, because they only have a single pit. 
 
 Let’s think about our HIV sequences the same way by creating a phylogenetic tree. 
 
