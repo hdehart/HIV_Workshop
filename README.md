@@ -41,7 +41,7 @@ This is why we create multiple sequence alignments! Lining up the sequences help
 |\* | All the sequences are the same
 |\. | There are differences between some or all of the sequences
 
-3.	Can you spot some differences between the different sample sequences? Are there shared similarities between patient (P) samples and victim (V) samples? What about LA samples?
+3.	Can you spot some differences between the different sample sequences? Are there shared similarities between P samples and V samples? What about LA samples?
 
 ### Part 2 - Creating Phylogenetic Relationships and Trees
 
@@ -53,13 +53,15 @@ Think about some charactersitics that are shared among different types of fruits
 
 Let’s think about our HIV sequences the same way by creating a phylogenetic tree. 
 
-1.	Create a hypothesis. If some sequences are more similar to each other, what do you think that means?
+1.	Create a hypothesis. If some sequences are more similar to each other, what do you think the tree will look like?
 2.	Go back to the alignment you created and create a phylogenetic tree out of the alignment you created. What do you think each of the parameters adjusts? Do you think adjusting these parameters will greatly affect your results?
-6.	Look at the tree you made. Do you see any groupings of sequences? Which sequence groups do you think are more or less closely related? Why? What do you think the numbers on the branches represent?
+6.	Look at the tree you made. Do you see any groupings of sequences? Which sequence groups do you think are more or less closely related? Why? 
 
-#### Final Conclusions
+### Part 3 - Solve a Crime...
 
-1.	Was your hypothesis supported? Why or why not? Do you believe the doctor was guilty? Why or why not?
+You are a researcher in a forensics laboratory. You are contacted by a lawyer representing a victim who accuses her physician of intentionally infecting her with the Human Immunodeficiency Virus (HIV) after their romantic relationship ended. After receiving a vitamin B-12 injection from this doctor, the victim tested positive for HIV. The lawyer alleges that the shot contained infected blood from other HIV positive patients under the doctor’s care. Using HIV sequences from victim, patients of the doctor, and other people in the area, it is up to you to determine if the victim could have contracted HIV from her doctor’s shot or some other source.
+
+1. Create a new hypothesis. If the doctor **DID** infect the victim, do you think her HIV sequences will be more or less similar to other HIV positive patients than they would be to random HIV positive individuals? Why?
 2.	Go back to your original BLAST results. Click on accession number **AY156858.1**. Find the PUBMED reference number **12388776** and click on it to read the scientific abstract of the paper that was published. This abstract will tell you whether or not the doctor was found guilty.
 
 More information on this case:
