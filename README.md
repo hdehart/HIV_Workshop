@@ -9,7 +9,7 @@ The workshop will analyze DNA sequence data to identify the gene(s) involved and
 5. Interpret your phylogenetic estimate relative to the forensics case
 
 ### Part 0 - Looking at Sequence Data
-1.	Take a look at the [sequence data](https://github.com/hdehart/HIV_Workshop/blob/master/HIV_subset.fas). This dataset contains multiple sequences in [FASTA](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp) format. This is a standard format for DNA sequence data developed by [David Lipman](http://www.people.virginia.edu/~wrp/) and [William Pearson](https://www.amia.org/about-amia/leadership/acmi-fellow/david-j-lipman-md-facmi). Copy the first nucleotide sequence. Each sequence starts with a title to separate it from others in the same file:
+1.	Take a look at the [sequence data](https://github.com/hdehart/HIV_Workshop/blob/master/data_subset.fas). This dataset contains multiple sequences in [FASTA](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp) format. This is a standard format for DNA sequence data developed by [David Lipman](http://www.people.virginia.edu/~wrp/) and [William Pearson](https://www.amia.org/about-amia/leadership/acmi-fellow/david-j-lipman-md-facmi). Copy the first nucleotide sequence. Each sequence starts with a title to separate it from others in the same file:
 
 \>**AY156858.1**\_*V01*
 
@@ -45,7 +45,7 @@ This is why we create multiple sequence alignments! Lining up the sequences help
 
 ### Part 2 - Creating Phylogenetic Relationships and Trees
 
-Now that the sequences are [aligned](https://github.com/hdehart/HIV_Workshop/blob/master/HIV_data_aligned.fas) and we can see all the similarities and differences, we need to determine which ones are more and less alike. How can we do that? Let's think back to the fruits...
+Now that the sequences are [aligned](https://github.com/hdehart/HIV_Workshop/blob/master/data_aligned.fas) and we can see all the similarities and differences, we need to determine which ones are more and less alike. How can we do that? Let's think back to the fruits...
 
 ![alt text](https://github.com/hdehart/HIV_Workshop/blob/master/fruit_tree.png)
 
