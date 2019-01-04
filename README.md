@@ -4,8 +4,8 @@ The workshop will analyze DNA sequence data to identify the gene(s) involved and
 ## Goals:
 1. Perform BLAST search to identify sequence region (local alignment)
 2. Link to study system via PubMed link on GenBank entry
-3. Conduct a multiple sequence alignment (global alignment)
-4. Estimate a phylogeny
+3. Conduct a multiple sequence alignment (global alignment) using MAFFT
+4. Estimate a Neighbor-Joining phylogeny
 5. Interpret your phylogenetic estimate relative to the forensics case
 
 ### Part 0 - Looking at Sequence Data
@@ -43,7 +43,7 @@ This is why we create multiple sequence alignments! Lining up the sequences help
 
 3.	Can you spot some differences between the different sample sequences? Are there shared similarities between P samples and V samples? What about LA samples?
 
-### Part 2 - Creating Phylogenetic Relationships and Trees
+### Part 2 - Estimating Phylogenetic Relationships and Trees
 
 Now that the sequences are [aligned](https://github.com/hdehart/HIV_Workshop/blob/master/data_aligned.fas) and we can see all the similarities and differences, we need to determine which ones are more and less alike. How can we do that? Let's think back to the fruits...
 
@@ -51,7 +51,7 @@ Now that the sequences are [aligned](https://github.com/hdehart/HIV_Workshop/blo
 
 Think about some charactersitics that are shared among different types of fruits. All fruits are more similar to each other than they are to a vegetable, like an onion. Within fruits however, some are more closely related because of shared characteristics. For example, the orange and grapefruit are more similar to each other than either is to an apple, because they are citrus fruits. Peaches and cherries are more similar to each other than either is to the apple, because they only have a single pit. 
 
-Let’s think about our HIV sequences the same way by creating a phylogenetic tree. 
+Let’s think about our HIV sequences the same way by estimating a phylogenetic tree. 
 
 1.	Create a hypothesis. If some sequences are more similar to each other, what do you think the tree will look like?
 2.	Go back to the alignment you created and create a phylogenetic tree out of the alignment you created. What do you think each of the parameters adjusts? Do you think adjusting these parameters will greatly affect your results?
@@ -62,7 +62,8 @@ Let’s think about our HIV sequences the same way by creating a phylogenetic tr
 You are a researcher in a forensics laboratory. You are contacted by a lawyer representing a victim who accuses her physician of intentionally infecting her with the Human Immunodeficiency Virus (HIV) after their romantic relationship ended. After receiving a vitamin B-12 injection from this doctor, the victim tested positive for HIV. The lawyer alleges that the shot contained infected blood from other HIV positive patients under the doctor’s care. Using HIV sequences from victim, patients of the doctor, and other people in the area, it is up to you to determine if the victim could have contracted HIV from her doctor’s shot or some other source.
 
 1. Create a new hypothesis. If the doctor **DID** infect the victim, do you think her HIV sequences will be more or less similar to other HIV positive patients than they would be to random HIV positive individuals? Why?
-2.	Go back to your original BLAST results. Click on accession number **AY156858.1**. Find the PUBMED reference number **12388776** and click on it to read the scientific abstract of the paper that was published. This abstract will tell you whether or not the doctor was found guilty.
+2.	Go back to your original BLAST results. Click on accession number AY156858.1.  Hit the second [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/) link (to the PNAS paper).  Where does this take you? 
+3. Read the abstract, click on the [DOI](https://www.doi.org/). How did your analysis compare to the published study? Guilty or Not Guilty?
 
 More information on this case:
 
